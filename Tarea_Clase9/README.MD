@@ -4,11 +4,11 @@ Este proyecto es un gestor de tareas simple desarrollado en Python. Permite al u
 ### Instalación
 - Clona el repositorio a tu máquina local:
 
-~git clone https://github.com/tu_usuario/gestor-de-tareas.git~
+``git clone https://github.com/tu_usuario/gestor-de-tareas.git``
 
 - Accede al directorio del proyecto:
 
-~cd Tarea_Clase9~
+``cd Tarea_Clase9``
 
 
 ### Uso
@@ -16,16 +16,16 @@ El gestor de tareas se puede utilizar desde la línea de comandos. Aquí tienes 
 
 - Agregar una tarea:
 
-~python main.py agregar "Limpiar la casa" "Alta"~
+``python main.py agregar "Limpiar la casa" "Alta"``
 
 - Agregar una tarea con fecha:
 
-~python main.py agregar "Comprar víveres" "Media" "2024-06-10"~
+``python main.py agregar "Comprar víveres" "Media" "2024-06-10"``
 
 - Listar todas las tareas:
 
-~python main.py listar~
+``python main.py listar``
 
 - Eliminar una tarea:
 
-~python main.py eliminar "Comprar víveres"~
+``python main.py eliminar "Comprar víveres"``
