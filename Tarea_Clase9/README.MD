@@ -1,31 +1,39 @@
 ## Gestor de Tareas
-Este proyecto es un gestor de tareas simple desarrollado en Python. Permite al usuario crear, eliminar y listar tareas, con la posibilidad de asignarles una fecha en el caso de algunas tareas específicas.
+Este es un simple gestor de tareas desarrollado en Python utilizando programación orientada a objetos (POO). El gestor permite al usuario crear, eliminar y listar tareas, con la capacidad de manejar dos tipos de tareas diferentes: tareas generales y tareas con fecha de vencimiento.
 
-### Instalación
-- Clona el repositorio a tu máquina local:
+#### Funcionalidades
+- Agregar Tarea: Permite al usuario agregar una nueva tarea al gestor.
+- Eliminar Tarea: Permite al usuario eliminar una tarea existente del gestor.
+- Listar Tareas: Muestra al usuario todas las tareas almacenadas en el gestor, con sus respectivos detalles.
+#### Estructura del Proyecto
+El proyecto consta de los siguientes archivos:
 
-``git clone https://github.com/never130/Politecnico_Malvinas-_Programacion2/tree/main/Tarea_Clase9.git``
+- gestor_tareas.py: Contiene la implementación del gestor de tareas y las clases relacionadas.
+- README.md: Este archivo que proporciona información sobre el proyecto.
+### Clases
+#### TareaGeneral
+Representa una tarea simple con un nombre, descripción y prioridad.
 
-- Accede al directorio del proyecto:
+##### Atributos:
+- nombre: El nombre de la tarea.
+- descripcion: La descripción de la tarea.
+- prioridad: La prioridad de la tarea (alta, media, baja).
+##### TareaConFecha
+Extiende la clase TareaGeneral para incluir una fecha de vencimiento adicional.
 
-``cd Tarea_Clase9``
+##### Atributos Adicionales:
+- fecha: La fecha de vencimiento de la tarea.
+ListaTareas
+Administra una lista de tareas, permitiendo operaciones como agregar, eliminar y listar tareas.
+
+#### Métodos:
+- agregar_tarea(tarea): Agrega una tarea a la lista.
+- eliminar_tarea(nombre): Elimina una tarea por su nombre de la lista.
+- listar_tareas(): Muestra todas las tareas almacenadas en la lista.
+#### Uso
+Para utilizar el gestor de tareas, simplemente ejecuta el archivo gestor_tareas.py en un entorno de Python. El programa te guiará a través de las diferentes opciones disponibles para gestionar tus tareas.
 
 
-### Uso
-El gestor de tareas se puede utilizar desde la línea de comandos. Aquí tienes algunas operaciones básicas que puedes realizar:
+`python Tarea Oralidad Programación II.ipynb`
 
-- Agregar una tarea:
-
-``python Tarea Oralidad Programación II.py agregar "Limpiar la casa" "Alta"``
-
-- Agregar una tarea con fecha:
-
-``python Tarea Oralidad Programación II.py agregar "Comprar víveres" "Media" "2024-06-10"``
-
-- Listar todas las tareas:
-
-``python Tarea Oralidad Programación II.py listar``
-
-- Eliminar una tarea:
-
-``python Tarea Oralidad Programación II.py eliminar "Comprar víveres"``
+Este README proporciona una visión general del proyecto, incluyendo su funcionalidad, estructura y cómo utilizarlo. Puedes personalizarlo según tus necesidades y agregar más detalles según sea necesario.
