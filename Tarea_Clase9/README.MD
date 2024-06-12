@@ -37,4 +37,4 @@ Para utilizar el gestor de tareas, simplemente ejecuta el archivo en un entorno 
 
 `python Tarea Oralidad Programación II.ipynb`
 
-Este README proporciona una visión general del proyecto, incluyendo su funcionalidad, estructura y cómo utilizarlo. Puedes personalizarlo según tus necesidades y agregar más detalles según sea necesario.
+Este README proporciona una visión general del proyecto, incluyendo su funcionalidad, estructura y cómo utilizarlo.
